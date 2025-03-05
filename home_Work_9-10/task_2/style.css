@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    position: relative;
+}
+.container-sm{
+    font-family: "Saira", sans-serif;
+    background-color: yellow;
+}
+.section2{
+    padding-top: 20px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    color:yellow;
+    height: 35px;
+    cursor: pointer;
+}
+.window1{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);   
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+}
+.modal{
+    background-color: yellow;
+    color:black;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    z-index: 1;
+}
+.modal p {
+    position: relative;
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+span{
+    cursor: pointer;
+    position: relative;
+    left:91%;
+    top:10%;
+}
+.hidden{
+    display: none;
+}
+
+
+
