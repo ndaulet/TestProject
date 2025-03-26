@@ -24,4 +24,3 @@ addBtn.addEventListener('click', () => {
         newTag.remove()
     })
 })
-
